@@ -11,7 +11,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: #B2DBD7;
+    background-color: #81BEF7;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
@@ -33,6 +33,7 @@ ul {
 ul li {
 	padding: 0.5rem 0;
 	font-weight: 200; 
+	color:#424242;
 }
 
 nav {
@@ -59,7 +60,7 @@ nav ul li {
 nav ul li:hover {
 	cursor: pointer;
 	color: white;
-	background-color: #B2DBD7; 
+	background-color: #81BEF7; 
 }
 
 nav ul li p {
