@@ -24,12 +24,12 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; 
+  margin-bottom: 1rem; 
   text-transform: uppercase;
 }
 
 .project-tagline {
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   font-weight: normal;
   letter-spacing: 3px;
   opacity: 0.8; }
