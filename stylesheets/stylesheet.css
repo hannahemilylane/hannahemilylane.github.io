@@ -39,9 +39,9 @@ a {
   color: #fff;
   text-align: center;
   position: relative;
-  padding-top: 5rem;
+  padding-top: 3rem;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 3px;
   opacity: 0.8; }
 
@@ -52,7 +52,7 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   color: #424242;
   text-transform: uppercase;
   letter-spacing: 4px;
