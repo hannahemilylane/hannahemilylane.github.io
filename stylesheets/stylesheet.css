@@ -18,6 +18,7 @@ a {
     text-decoration: underline; }
 
 .intro {
+    margin-top: 0;
   background-color: #81BEF7;
   background-image: none;
   height: 100%;
