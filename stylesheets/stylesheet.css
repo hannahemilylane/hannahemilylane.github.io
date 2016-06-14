@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
   color: #424242; }
 
@@ -23,14 +23,16 @@ a {
   }
 
 .project-name {
-  margin-top: 0;
-  margin-bottom: 1rem; 
+  margin-top: 1;
+  margin-bottom: 0.5rem; 
   text-transform: uppercase;
+  font-size: 50px;
 }
 
 .project-tagline {
   margin-bottom: 4rem;
   font-weight: normal;
+  font-size: 20px;
   letter-spacing: 3px;
   opacity: 0.8; }
 
