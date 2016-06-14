@@ -48,7 +48,7 @@ a {
   .arrow {
     position: relative;
     text-align: center;
-    color: white;
+    color: white !important;
     font-size: 30px;
     padding: 3rem;
     z-index: 2;
