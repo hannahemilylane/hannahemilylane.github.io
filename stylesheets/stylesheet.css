@@ -44,6 +44,15 @@ a {
   font-size: 18px;
   letter-spacing: 3px;
   opacity: 0.8; }
+  
+  .arrow {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 3rem;
+    z-index: 2;
+}
 
 .main-content :first-child {
   margin-top: 0; }
