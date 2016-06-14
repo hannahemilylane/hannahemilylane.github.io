@@ -20,15 +20,18 @@ a {
   text-align: center;
   background-color: #81BEF7;
   background-image: none;
-  text-transform: uppercase;}
+  }
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0.1rem; 
+  text-transform: uppercase;
+}
 
 .project-tagline {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: normal;
+  letter-spacing: 3px;
   opacity: 0.8; }
 
 .main-content :first-child {
