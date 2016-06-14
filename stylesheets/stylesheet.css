@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #424242; }
 
 a {
   color: #1e6bb8;
@@ -38,15 +38,18 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #424242;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
   padding: 0px 0px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
-  color: #383e41;
-  background-color: #f3f6fa;
+  color: #424242;
+  background-color: #fafafa;
    }
 .main-content pre {
   padding: 0 rem;
@@ -72,11 +75,11 @@ a {
     margin-bottom: 0;
     word-break: normal; }
 .main-content .highlight pre, .main-content pre {
-  padding: 0.8rem;
+  padding: 0rem;
   overflow: auto;
   font-size: 0.9rem;
   line-height: 1.45;
-  border-radius: 0.3rem; }
+  border-radius: 0rem; }
 .main-content pre code, .main-content pre tt {
   display: inline;
   max-width: initial;
@@ -133,19 +136,14 @@ a {
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; 
   width: 100%;
+  background: black;
+  color: white;
 }
 
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
 
 
 /* About
 ------------------------------------------------------------ */
-
 #about-me {
     text-align: center;
 }
@@ -154,9 +152,21 @@ a {
 ------------------------------------------------------------ */
 #education {
     text-align: center;
+    background-color: #F2F5A9;
 }
 /* Experience
 ------------------------------------------------------------ */
-
+#experience {
+    text-align: center;
+}
+/* Projects
+------------------------------------------------------------ */
+#projects {
+    text-align: center;
+    background-color: #F2F5A9;
+}
 /* Contact
 ------------------------------------------------------------ */
+#contact {
+    text-align: center;
+}
