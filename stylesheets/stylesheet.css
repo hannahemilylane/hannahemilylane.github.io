@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #FAFAFA; }
 
 a {
   color: #1e6bb8;
@@ -56,7 +56,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #F5A9BC;
+  background-color: #81DAF5;
   background-image: none; }
 
 @media screen and (min-width: 64em) {
@@ -112,15 +112,18 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #81DAF5;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.9rem;
-  color: #383e41;
-  background-color: #f3f6fa;
+  color: #424242;
+  background-color: #fafafa;
   border-radius: 0.3rem; }
 .main-content pre {
   padding: 0.8rem;
@@ -223,14 +226,11 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  border-top: solid 1px #eff0f1;
+  background-color: black;
+  color: white;
+}
 
-.site-footer-owner {
-  display: block;
-  font-weight: bold; }
-
-.site-footer-credits {
-  color: #819198; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
@@ -247,7 +247,6 @@ a {
 
 /* About
 ------------------------------------------------------------ */
-
 #about-me {
     text-align: center;
 }
@@ -256,9 +255,23 @@ a {
 ------------------------------------------------------------ */
 #education {
     text-align: center;
+    background-color: #F2F5A9;
 }
 /* Experience
 ------------------------------------------------------------ */
-
+#experience {
+    text-align: center;
+}
+/* Projects
+------------------------------------------------------------ */
+#projects {
+    text-align: center;
+    background-color: #F2F5A9;
+}
 /* Contact
 ------------------------------------------------------------ */
+#contact {
+    text-align: center;
+    background-color: #424242;
+    font: white; 
+}
