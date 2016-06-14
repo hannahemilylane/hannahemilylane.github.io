@@ -3,6 +3,27 @@ body, html {
     height: 100%;
 }
 
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+nav.pinned {
+    position: fixed;
+    top: 0;
+    background-color: #B2DBD7;
+    transition: 0.3s ease background-color;
+    -webkit-transition: 0.2s ease background-color;
+}
+
+.navbar-wrapper {
+    height: 3rem;
+}
+
+.navbar {
+    text-align: center;
+}
+
 body {
   padding: 0;
   margin: 0;
