@@ -23,14 +23,14 @@ a {
   }
 
 .project-name {
-  padding-top: 1;
+  padding-top: 1rem;
   margin-bottom: 0.5rem; 
   text-transform: uppercase;
   font-size: 50px;
 }
 
 .project-tagline {
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
   font-weight: normal;
   font-size: 20px;
   letter-spacing: 3px;
