@@ -21,6 +21,8 @@ a {
   background-color: #81BEF7;
   background-image: none;
   height: 100%;
+  position: relative;
+  overflow: hidden;
   }
 
 .intro-name {
