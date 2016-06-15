@@ -2,6 +2,9 @@ body, html {
     height: 100%;
 }
 
+/* Nav bar
+------------------------------------------------------------ */
+
 nav {
     position: relative;
     z-index: 1;
@@ -95,10 +98,15 @@ nav.pinned {
 
 #about-me {
     text-align: center;
+    line-height: 1em;
 }
 
 #about-me a {
     color: #F4ACB7;
+}
+
+.biography {
+    background: #f2f2f2;
 }
 
 /* Projects
@@ -124,6 +132,22 @@ nav.pinned {
 #experience {
     text-align: center;
     background: #ffffff;
+}
+
+/* Education
+------------------------------------------------------------ */
+
+#education {
+    text-align: center;
+    background: #ffffff;
+}
+
+/* Skills
+------------------------------------------------------------ */
+
+#skills {
+    text-align: center;
+    background: #F2FACB;
 }
 
 /* Effects
