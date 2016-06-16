@@ -10,10 +10,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 50px; 
+	font-family: "Abril Fatface", Helvetica, sans-serif;
 }
 
 h2 {
-	font-size: 30px; 
+	font-size: 35px; 
 	font-family: "Abril Fatface", Helvetica, sans-serif;
 }
 
@@ -33,10 +34,12 @@ h4 {
 
 h5 {
 	font-size: 18px; 
+	font-family: "Raleway", Helvetica, sans-serif;
 }
 
 h6 {
 	font-size: 16px; 
+	font-family: "Raleway", Helvetica, sans-serif;
 }
 
 body, html {
