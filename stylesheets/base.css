@@ -14,13 +14,14 @@ h1 {
 
 h2 {
 	font-size: 30px; 
-	text-transform: uppercase;
-	letter-spacing: 4px;
 	font-family: "Abril Fatface", Helvetica, sans-serif;
 }
 
 h3 {
 	font-size: 20px; 
+	font-family: "Raleway", Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
 h4 {
