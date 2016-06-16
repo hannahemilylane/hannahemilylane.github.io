@@ -13,7 +13,7 @@ nav {
 nav.pinned {
     position: fixed;
     top: 0;
-    background-color: #B2DBD7;
+    background-color: #7DAF9C;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
@@ -31,7 +31,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    background-color: #B2DBD7;
+    background-color: #7DAF9C;
     cursor: default;
 }
 
@@ -115,7 +115,7 @@ nav.pinned {
 
 #projects {
     text-align: center;
-    background: #F2FACB;
+    background: #F7BFB4;
 }
 
 #projects p {
@@ -126,6 +126,9 @@ nav.pinned {
     width: 80%;
     height: auto;
 }
+
+#projects a {
+    color: #23967F; }
 
 /* Experience
 ------------------------------------------------------------ */
@@ -148,7 +151,7 @@ nav.pinned {
 
 #skills {
     text-align: center;
-    background: #F2FACB;
+    background: #F7BFB4;
 }
 
 /* Effects
