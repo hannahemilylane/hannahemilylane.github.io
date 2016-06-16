@@ -18,14 +18,17 @@ h2 {
 }
 
 h3 {
-	font-size: 20px; 
+	font-size: 15px; 
 	font-family: "Raleway", Helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	padding: 0.8em;
 }
 
 h4 {
-	font-size: 20px; 
+	font-size: 20px;
+	font-family: "Raleway", Helvetica, sans-serif;
+
 }
 
 h5 {
